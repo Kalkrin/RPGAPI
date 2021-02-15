@@ -17,7 +17,6 @@ namespace RolePlayingGameAPI.Controllers
         public CharacterController(ICharacterService characterService)
         {
             _characterService = characterService;
-
         }
 
         [HttpGet("GetAll")]
