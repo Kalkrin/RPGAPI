@@ -8,7 +8,7 @@ namespace RolePlayingGameAPI.Models
         public int Strength { get; set; }
         public int Defence { get; set; }
         public int Intelligence { get; set; }
-
         public RpgClass Class { get; set; }
+        public User User { get; set; }
     }
 }
